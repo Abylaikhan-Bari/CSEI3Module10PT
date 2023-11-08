@@ -19,7 +19,7 @@ namespace HouseConstruction
     // Классы для частей дома
     public class House
     {
-       
+
         public Basement Basement { get; set; }
         public List<Wall> Walls { get; private set; }
         public List<Window> Windows { get; private set; }
